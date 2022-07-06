@@ -28,4 +28,4 @@ npm i -D @swc/core @swc/cli
 
 After building the visual check the webpack.statistic.html for bundle size of Formatting Utils.
 
-![alt](https://)
+![alt](https://github.com/manikandanvengatesan/pbi-formatting-utils-size-comparison/blob/main/assets/webpack-stats.png)
