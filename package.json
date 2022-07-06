@@ -1,0 +1,50 @@
+{
+  "name": "pbi-formatting-utils-size-comparison",
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/runtime": "^7.15.4",
+    "@babel/runtime-corejs3": "^7.15.4",
+    "core-js": "^3.4.1",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.51",
+    "@swc/core": "^1.2.105",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "babel-loader": "^8.2.2",
+    "cross-env": "7.0.3",
+    "css-loader": "^5.2.7",
+    "eslint": "^7.14.0",
+    "eslint-plugin-powerbi-visuals": "^0.8.1",
+    "extra-watch-webpack-plugin": "^1.0.3",
+    "json-loader": "^0.5.7",
+    "less": "^4.1.1",
+    "less-loader": "6.0.x",
+    "mini-css-extract-plugin": "^2.2.2",
+    "powerbi-visuals-api": "4.4.0",
+    "powerbi-visuals-tools": "^3.3.2",
+    "powerbi-visuals-utils-dataviewutils": "2.2.1",
+    "powerbi-visuals-utils-formattingutils": "4.6.0",
+    "powerbi-visuals-utils-interactivityutils": "5.7.0",
+    "powerbi-visuals-utils-tooltiputils": "2.4.0",
+    "powerbi-visuals-webpack-plugin": "^2.3.1",
+    "process": "^0.11.10",
+    "source-map-loader": "^3.0.0",
+    "swc-loader": "^0.1.14",
+    "ts-loader": "^8.0.3",
+    "typescript": "4.0.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.52.0",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.1"
+  },
+  "scripts": {
+    "install-cert": "pbiviz --install-cert",
+    "package": "cross-env NODE_OPTIONS=--max-old-space-size=8192 pbiviz package",
+    "build": "cross-env NODE_ENV=production webpack  --env production --progress",
+    "start": "webpack-dev-server"
+  }
+}

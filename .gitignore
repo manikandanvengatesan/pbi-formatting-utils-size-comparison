@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.tmp/
+.vscode/
+.history/
+coverage/
+build/
+webpack.statistics.dev.html
+.DS_Store
+src-intermediates/
+/.env
+buildInfo/
+webpack.statistics.prod.html
+webpack.statistics.html
+.npmrc
+sample-set/

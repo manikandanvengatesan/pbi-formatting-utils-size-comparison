@@ -1,0 +1,23 @@
+{
+  "visual": {
+    "name": "PBI_Formatting_Utils_Size_Comparison",
+    "displayName": "PBI Formatting Utils Size Comparison",
+    "guid": "PBI_Formatting_Utils_Size_Comparison_582F6C55AB6442EF8FA129089285CB47",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "PBI Visual Utils Size Comparison",
+    "supportUrl": "https://lumel.com/",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "4.4.0",
+  "author": {
+    "name": "Lumel Technologies",
+    "email": "info@lumel.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json"
+}
