@@ -1,6 +1,9 @@
 # PBI Visual Update not triggering when visual size is set to `Actual`
 
-This is the Power BI Visual repository for **PBI Formatting Utils Size Comparison**.
+# Issue detail:
+While switching to edit view from reading view visual update is not triggering when we have `visual size set to Actual`. Please find the pbiviz file in the repo.
+
+Added a console in update function to check if the update is triggering. We need some update to tell the visual is in edit mode.
 
 ## build commands
 
@@ -26,11 +29,6 @@ If someone face any issue pls use
 npm i -D @swc/core @swc/cli
 ```
 
-## Update not triggering issue:
-
-When we switch to edit view from reading view visual update is not triggering when we have `view type set to Actual size`. Please find the pbiviz file in the repo.
-
-Added a console in update function to check if the update is triggering.
 
 <!-- ## Package size comparison:
 
