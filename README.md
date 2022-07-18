@@ -5,6 +5,9 @@ While switching to edit view from reading view visual update is not triggering w
 
 Added a console in update function to check if the update is triggering. We need some update to tell the visual is in edit mode.
 
+https://user-images.githubusercontent.com/30241688/179458977-7b432211-89e2-4c66-ac61-3b27c45e60f8.mov
+
+
 ## build commands
 
 For development, use
