@@ -30,6 +30,8 @@ npm i -D @swc/core @swc/cli
 
 When we switch to edit view from reading view visual update is not triggering when we have `view type set to Actual size`. Please find the pbiviz file in the repo.
 
+Added a console in update function to check if the update is triggering.
+
 <!-- ## Package size comparison:
 
 After building the visual check the webpack.statistic.html for bundle size of Formatting Utils.
