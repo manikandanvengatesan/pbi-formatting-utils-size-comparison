@@ -30,7 +30,7 @@ npm i -D @swc/core @swc/cli
 
 When we switch to edit view from reading view visual update is not triggering when we have `view type set to Actual size`. Please find the pbiviz file in the repo.
 
-## Package size comparison:
+<!-- ## Package size comparison:
 
 After building the visual check the webpack.statistic.html for bundle size of Formatting Utils.
 
@@ -40,4 +40,4 @@ After building the visual check the webpack.statistic.html for bundle size of Fo
 
 Remove the getFormattedText() function from the visual.ts and check the bundle size of the visual.
 
-![alt](https://github.com/manikandanvengatesan/pbi-formatting-utils-size-comparison/blob/main/assets/without-formatting-utils.png)
+![alt](https://github.com/manikandanvengatesan/pbi-formatting-utils-size-comparison/blob/main/assets/without-formatting-utils.png) -->
