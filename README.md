@@ -1,4 +1,4 @@
-# PBI Visual Update not triggering when view type size is set to actual
+# PBI Visual Update not triggering when visual size is set to `Actual`
 
 This is the Power BI Visual repository for **PBI Formatting Utils Size Comparison**.
 
