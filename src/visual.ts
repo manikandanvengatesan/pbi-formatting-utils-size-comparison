@@ -60,10 +60,10 @@ export class Visual implements IVisual {
   }
 
   public update(options: VisualUpdateOptions) {
+    console.log("update triggered");
     const metadataName = options.dataViews[0].metadata.columns[0].displayName;
     let finalValue = 0;
-    debugger;
-    options.dataViews[0].categorical.categories[0].values.forEach(
+    options.dataViews[0].categorical.values[0].values.forEach(
       (value: number) => {
         finalValue += value;
       }
@@ -84,7 +84,7 @@ export class Visual implements IVisual {
       .attr("cy", height / 2);
     let fontSizeValue: number = Math.min(width, height) / 5;
     this.textValue
-      .text(finalValue)
+      .text(Math.round(finalValue))
       .attr("x", "50%")
       .attr("y", "50%")
       .attr("dy", "0.35em")

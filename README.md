@@ -26,6 +26,12 @@ If someone face any issue pls use
 npm i -D @swc/core @swc/cli
 ```
 
+## Update not triggering issue:
+
+When we switch to edit view from reading view visual update is not triggering when we have `view type set to Actual size`. Please find the pbiviz file in the repo.
+
+## Package size comparison:
+
 After building the visual check the webpack.statistic.html for bundle size of Formatting Utils.
 
 ![alt](https://github.com/manikandanvengatesan/pbi-formatting-utils-size-comparison/blob/main/assets/webpack-stats.png)
